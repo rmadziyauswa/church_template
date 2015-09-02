@@ -1,0 +1,40 @@
+TODO
+
+Animate Slide Captions and Headers
+Hide Slide Captions on Screens with small height
+
+
+
+================================================================
+	
+			COLORS
+
+================================================================
+
+
+Dark Purple = #2E0927
+rED = #D90000
+ORANGE = #FF2D00
+GOLD = #FF8C00
+ZHING BLUE = #04756F
+
+
+
+Google Maps Settings:
+==========================
+Default Marker Icon Image (Type Image)
+Animate Marker (Boolean)
+Use Labels (Boolean)
+Map Type (Road Map,Terrain,Staellite etc)
+zoom level (0 to 18)
+
+
+
+
+
+Blog List = blogtimeline.jpg && bloglist.jpg && blog or sermon list.jpg
+
+Blog Grid = blog.jpg && 4.jpg
+
+Blog Masonry Grid = bloglist2.jpg
+
