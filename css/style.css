@@ -1760,7 +1760,18 @@ ul.contact-info i {
     border-radius: 5px;
     padding: 2px;
     font-size: 12px;
+    overflow: hidden;
 }
+
+
+.blog-container:after {
+       content: " ";
+    display: block;
+    height: 10px;
+    width: 100%;
+}
+
+
 
 .axis-filter-tab {
     padding-bottom: 10px;
@@ -2007,11 +2018,65 @@ p.form-submit.form-group input {
 }
 
 
+.sermon-formats-cats .available-formats {
+    list-style: none;
+    margin: 20px 10px;
+    padding: 0;
+}
+
+
+.sermon-formats-cats .available-formats li{
+    display: inline-block;
+    margin-right: 20px;
+    border-bottom: none;
+}
+
+.sermon-formats-cats .available-formats li i{
+    font-size: 16px;
+    color: #D90000;
+}
+
+
+.sermon-formats-lower-thumbnail .available-formats {
+    list-style: none;
+        margin: 0 auto;
+    padding: 0;
+}
+
+
+.sermon-formats-lower-thumbnail .available-formats li{
+    display: inline-block;
+    margin-right: 20px;
+    border-bottom: none;
+}
+
+.sermon-formats-lower-thumbnail .available-formats li:last-child{
+    margin-right: 0;
+}
+
+.sermon-formats-lower-thumbnail .available-formats li i{
+    font-size: 16px;
+    color: #D90000;
+}
 
 
 
+.sermon-formats-left-thumbnail .available-formats {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
 
 
+.sermon-formats-left-thumbnail .available-formats li{
+    border-bottom: none;
+}
+
+
+.sermon-formats-left-thumbnail .available-formats li i{
+    font-size: 16px;
+    color: #D90000;
+}
 
 
 
