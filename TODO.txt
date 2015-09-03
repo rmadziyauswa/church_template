@@ -28,13 +28,3 @@ Use Labels (Boolean)
 Map Type (Road Map,Terrain,Staellite etc)
 zoom level (0 to 18)
 
-
-
-
-
-Blog List = blogtimeline.jpg && bloglist.jpg && blog or sermon list.jpg
-
-Blog Grid = blog.jpg && 4.jpg
-
-Blog Masonry Grid = bloglist2.jpg
-

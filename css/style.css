@@ -2078,7 +2078,11 @@ p.form-submit.form-group input {
     color: #D90000;
 }
 
-
+.blog-grid .sermon-formats-lower-thumbnail{
+	padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 
