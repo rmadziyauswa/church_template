@@ -1760,7 +1760,6 @@ ul.contact-info i {
     border-radius: 5px;
     padding: 2px;
     font-size: 12px;
-    overflow: hidden;
 }
 
 
@@ -1993,6 +1992,20 @@ a.pagination-arrows {
 .blog-share-row {
     background-color: #F7F7F7;
     margin: 20px 0;
+}
+
+.blog-share-row-left {
+    position: absolute;
+    top: 60px;
+    left: -45px;
+    z-index: 350;
+    background-color: #F7F7F7;
+}
+
+.blog-share-row-left ul.blog-share-options li{
+	float: none;
+	display: block;
+	margin: 0;
 }
 
 .comment-respond h3 {
@@ -2320,6 +2333,20 @@ p.form-submit.form-group input {
 	}
 
 
+
+	.blog-share-row-left {
+	    position: initial;
+
+	}
+
+	.blog-share-row-left ul.blog-share-options li {
+	    float: left;
+	    display: block;
+	    margin: 10px 10px 10px 0px;
+	}
+
+
+
 }
 
 
@@ -2338,17 +2365,48 @@ p.form-submit.form-group input {
 		    left: 0;
 		    right: 0;
 		    width: auto;
-	}
+		}
 
 
-	ul.blog-grid li {
-		max-width: 250px;
-	}
+		ul.blog-grid li {
+			max-width: 250px;
+		}
+
+
+		.blog-share-row-left {
+		    position: initial;
+
+		}
+
+		.blog-share-row-left ul.blog-share-options li {
+		    float: left;
+		    display: block;
+		    margin: 10px 10px 10px 0px;
+		}
 
 
 
 }
 
+
+/******************** Medium Desktops *************************/
+@media (min-width: 992px) and (max-width: : 1170px){
+
+
+
+		.blog-share-row-left {
+		    position: initial;
+		    background-color: green;
+
+		}
+
+		.blog-share-row-left ul.blog-share-options li {
+		    float: left;
+		    display: block;
+		    margin: 10px 10px 10px 0px;
+		}
+
+}
 
 
 
@@ -2362,8 +2420,3 @@ p.form-submit.form-group input {
 	}
 
 }
-
-
-
-
-
