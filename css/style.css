@@ -2127,23 +2127,55 @@ img.img-thumbnail.blog-author-thumbnail {
 }
 
 
+.sermon-categories-sidebar li span.badge , .sermon-archives-sidebar li span.badge , .sermon-speakers-sidebar li span.badge{
+	margin-left: 10px;
+	background-color: #04756F;
+}
 
 
+.sermon-sidebar-tags li{
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 2px;
+    background-color: #04756F;
+    float: left;
+    margin: 0 5px;
+}
+
+.lil-sermon-thumb{
+	display: block;
+	padding: 0;
+}
 
 
+.col-sm-3.lil-sermon-thumb a {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ul.sermon-recent-sidebar{
+	margin: 0;
+}
 
 
+.sermon-speakers-sidebar li .col-sm-9{
+	    margin: 15px 0;
+}
 
-
-
-
-
-
-
-
-
-
-
+/*.lil-sermon-thumb img {
+    width: 60px;
+    height: 60px;
+}
+*/
 
 
 
@@ -2403,6 +2435,24 @@ img.img-thumbnail.blog-author-thumbnail {
 		    float: left;
 		    display: block;
 		    margin: 10px 10px 10px 0px;
+		}
+
+		ul.sermon-recent-sidebar li .col-sm-9 {
+		    padding: 5% 1%;
+		}
+
+		ul.sermon-recent-sidebar li .col-xs-9 {
+		    padding: 5% 1%;
+		}
+
+
+
+		ul.sermon-speakers-sidebar li .col-sm-9 {
+		    padding: 5% 1%;
+		}
+
+		ul.sermon-speakers-sidebar li .col-xs-9 {
+		    padding: 5% 1%;
 		}
 
 
