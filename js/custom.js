@@ -1,6 +1,6 @@
 (function ($){
 
-
+	
 	FixsidebarHeights();
 
 	
@@ -71,6 +71,7 @@
 		var container_height = $('.blog-container').height();
 		var sidebar_height = $('.axis-right-sidebar').height();
 		var win_width = $(window).width();
+
 
 		$('.axis-right-sidebar').css('height' , 'initial');
 
