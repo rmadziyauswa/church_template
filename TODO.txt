@@ -28,3 +28,153 @@ Use Labels (Boolean)
 Map Type (Road Map,Terrain,Staellite etc)
 zoom level (0 to 18)
 
+
+
+==============================================================
+
+Events  Design
+
+==============================================================
+
+Event Single
+----------------------
+-Thumbnail
+-Event Name
+-Date and Time And Upcoming/Passed (Countdown Timer)
+-Venue Address With Marker To Map Location
+-Event Description
+-register Button
+-Social Sharing List
+
+-Contact Info (Phone,email,Fax)
+
+- Google Map To Venue
+
+
+Events List
+-----------------------------
+Filter On Top
+
+-Left Side
+	- (Big Calendar Icon With Date On Top Of It)
+-Middle Side
+	-Event Name
+	- Time from, Time To
+	-Venue
+-Right Side
+	-Register Button
+	-Icons (Map Marker,Email,)
+	-(Countdown Timer)
+
+
+
+Events Grid
+-----------------------------
+Filter On Top
+
+
+	- Thumbnail 
+	-Event Name
+	- Date And Time And Upcoming/Passed
+	-Venue , Icons (Map Marker,Email,)
+	-Register Button
+	
+
+
+
+Staff Grid (use staff.jpg)
+-----------------------------
+
+Categorize By Positions
+
+
+	- Thumbnail Rounded - Link
+	-Staff Name- Link
+	-Title/ Position -Link
+	- Email Address
+	- Phone Number
+	- Social Icons List
+	
+
+
+
+Staff Single
+-----------------------------
+	- Back Cover Image
+
+	- Left -Thumbnail And Right	-Staff Name & Title/ Position
+	- Email Address & Phone Number
+	- Auto Biography
+	- Social Icons List
+	
+
+
+
+
+Ministry Single
+-----------------------------
+	- Thmbnail Cover Image
+	- Ministry Name
+	- Contact Email Address & Phone Number
+	- Description
+	- Social Icons List
+	
+
+
+
+Ministry List
+-----------------------------
+-Left
+	- Thumbnail  Image
+-Right
+	- Ministry Name
+	- Contact Email Address & Phone Number & Social Icons List
+	- Excerpt
+	
+
+
+
+
+Branch Single
+-----------------------------
+	- Thmbnail Cover Image Or Google Maps Location
+	- Branch Name
+	- Branch Address
+	- Contact Email Address & Phone Number
+	- Description
+	- Social Icons List
+	
+
+
+
+Branch List
+-----------------------------
+-Left
+	- Thumbnail  Image
+-Right
+	- Branch Name
+	- Address
+	- Contact Email Address & Phone Number & Social Icons List
+	
+
+
+
+
+testimonies Grid 
+-----------------------------
+Use Shout Out/ Callout Shaped Container
+
+
+	- Thumbnail  - Link
+	- Testifier Name- Link
+	- Testimony Title -Link
+	- Excerpt - 
+	
+
+
+
+
+Testimonies Single
+---------------------------
+Like Normal Blog Post With
+Testifier Thumbnail Image And Name On Same Line As testimony Title
