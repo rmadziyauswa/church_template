@@ -4,6 +4,8 @@ Animate Slide Captions and Headers
 Hide Slide Captions on Screens with small height
 
 
+Sign Up Newsletter Widget
+Daily Verses Widget
 
 ================================================================
 	
@@ -19,6 +21,11 @@ GOLD = #FF8C00
 ZHING BLUE = #04756F
 
 
+Facebook = #3b5998
+Twitter = #55ACEE
+google Plus = #dd4b39
+pinterest = #C92228
+Instagram = #3f729b
 
 Google Maps Settings:
 ==========================

@@ -165,4 +165,53 @@ ShowSlide($('.axis-slides li').eq(auto_slide));
 the_interval = setInterval(AutoSlideShow , show_speed);
 
 
+
+
+
+//functionality for the event slider
+var AxisEventSlider = {
+
+	num_slides: 0,
+	current_slide: 0,
+	init : function(num_slides){
+		this.num_slides = num_slides;
+		this.current_slide = 0;
+	},
+	moveToNextSlide : function(){
+		this.current_slide += 1;
+		this.current_slide = (this.current_slide >= this.num_slides) ? 0 : this.current_slide  ;
+		this.showCurrentSlide();
+
+	},
+	moveToPrevSlide : function(){
+		this.current_slide -= 1;
+		this.current_slide = (this.current_slide < 0 ) ? (this.num_slides - 1 ) : this.current_slide ;
+		this.showCurrentSlide();
+
+	},
+	showCurrentSlide : function(){
+		$('.events-slider li').hide();
+		$('.events-slider li').eq(this.current_slide).show();
+	}
+
+}
+
+
+AxisEventSlider.init(4);
+
+
+$('.events-slider-arrows .col-xs-3 a').click(function(e){
+	e.preventDefault();
+
+	if ( $('.events-slider-arrows .col-xs-3 a').index($(this)) == 0 ){
+		AxisEventSlider.moveToPrevSlide();
+	}
+	else{
+		AxisEventSlider.moveToNextSlide();
+
+	}
+
+});
+
+
 })(jQuery);

@@ -91,4 +91,10 @@
 		}
 	}
 
+
+	$('.event-month-name').click(function(e){
+		e.preventDefault();
+		$(this).siblings('.event-month-list').slideToggle();
+	});
+
 })(jQuery);
